@@ -7,5 +7,41 @@
   </head>
   <body>
     <h1>Nhanh main</h1>
+    <p>Git branch</p>
+    <p>
+      <b>xem nhanh local Git branch -all hoac (-a)</b> xem nhanh cua local va
+      remote
+    </p>
+    <p><b>git checkout main</b> chuyen doi tu cong viec1 sang main</p>
+    <p><b>git checkout cong viec1 chuyen doi tu main</b> sang cong viec1</p>
+    <p>
+      <b>git branch -c cong viec1</b> copy toan bo code o nhanh main hien tai
+      sang 1 nhanh moi, con tro van o nhanh hien tai
+    </p>
+    <p>
+      <b> git checkout cong viec1</b> de chuyen con tro sang nhanh cong viec1
+    </p>
+    <p>
+      <b> git checkout -b cong viec2</b> copy toan bo code o nhanh main hien tai
+      sang 1 nhanh moi nhu <b>git checkout cong viec1</b>
+    </p>
+    <p>
+      <b>
+        git push -u origin cong viec1 hay git push --set-upstream origin cong
+        viec2
+      </b>
+      tham so "-u" de viet tat cho tham so "--set-upstream" thuong su dung cho
+      lan dau tien, Git se tu dong thiet lap mot moi quan he theo doi giua nhanh
+      cuc bo (local branch) va nhanh tu xa (remote branch). <br />
+      Trong truong hop nay git tao lien ket giua nhanh cong viec1 tren local va
+      nhanh cong viec1 tren may chu Git. <br />
+      Tu lan 2, dng tai cong viec1 chi can dung lenh git push. <br />
+    </p>
+    <p>
+      <b>git branch -d cong viec1</b> Xoa nhanh tren may tinh (local repo).
+      <br />
+      <b>git branch -D Cong viec2</b> neu nhanh co code chua push se phai xoa ep
+      bang "-D".
+    </p>
   </body>
 </html>
